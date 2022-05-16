@@ -1,0 +1,82 @@
+{
+  "data": [
+    {
+      "heading": "Knowledge",
+      "list": [
+        "JavaScript (es6+)",
+        "Typescript",
+        "React",
+        "Vue",
+        "HTML5",
+        "CSS3",
+        "Git",
+        "Webpack",
+        "GSAP",
+        "SVG",
+        "WebSockets",
+        "Express",
+        "AdonisJS",
+        "Ionic",
+        "Capacitor",
+        "Tailwind",
+        "Twilio APIs"
+      ]
+    },
+    {
+      "heading": "",
+      "list": [
+        "TDD",
+        "Unit Testing",
+        "End-to-End Testing",
+        "SPA Architecture Design & Developement",
+        "CI/CD Methodology",
+        "Web Animation",
+        "Responsive Design & Development",
+        "Front End Web Architecture",
+        "Web Perfomance Optimization",
+        "Code Optimization",
+        "Gitflow Methodology",
+        "UI/UX Design",
+        "Wireframes, User Flows, Flowcharts"
+      ]
+    },
+    {
+      "heading": "Tools",
+      "list": [
+        "Photoshop",
+        "Illustrator",
+        "Sketch",
+        "Figma",
+        "GitHub",
+        "Bitbucket",
+        "CLI",
+        "NPM/Yarn",
+        "VSCode",
+        "Sublime",
+        "Prettier",
+        "ESLint"
+      ]
+    },
+    {
+      "heading": "Education",
+      "list": [
+        "Self Taught Developer",
+        "Interactive Design (Capilano University)",
+        "Apple Technical Coordinator",
+        "Apple Help Desk Specialist",
+        "Apple Server Support Specialist"
+      ]
+    },
+    {
+      "heading": "Interests",
+      "list": [
+        "Photography",
+        "Travel",
+        "Music",
+        "Food/Cooking",
+        "Snowboarding",
+        "Scuba Diving"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "Garamond";
+  font-style: normal;
+  src: local("Adobe Garamond Pro Regular"), local("AGaramondPro-Regular"),
+    url("../fonts/AGaramondPro-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Garamond";
+  font-style: italic;
+  src: local("Adobe Garamond Pro Italic"), local("AGaramondPro-Italic"),
+    url("../fonts/AGaramondPro-Italic.otf") format("opentype");
+}
+
+:root {
+  --h1: 4.8rem;
+  --h2: 3.2rem;
+  --h3: 2.8rem;
+  --h4: 1.8rem;
+  --h5: 1rem;
+  --h6: 0.75rem;
+
+  --p: 2rem;
+  --small: calc(var(--p) / 1.25);
+  --baseline: 1.2;
+  --weight-normal: 400;
+  --weight-bold: 700;
+
+  font-size: calc(62.5% - 0.5vw);
+
+  @mixin min-xs {
+    font-size: 62.5%;
+  }
+
+  font-weight: var(--weight-normal);
+  font-family: "Garamond", "Times New Roman", "Serif";
+  line-height: var(--baseline);
+  color: var(--color-text-0);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 1.16667em;
+
+  font-weight: var(--weight-normal);
+  transition: color var(--transition-short);
+}
+
+h1,
+.h1 {
+  font-size: var(--h1);
+}
+
+h2,
+.h2 {
+  font-size: var(--h2);
+}
+
+h3,
+.h3 {
+  font-size: var(--h3);
+}
+
+h4,
+.h4 {
+  font-size: var(--h4);
+}
+
+h5,
+.h5 {
+  font-size: var(--h5);
+}
+
+h6,
+.h6 {
+  font-size: var(--h6);
+}
+
+p {
+  font-size: var(--p);
+  line-height: 1.8;
+}
+
+a {
+  font-size: inherit;
+  text-decoration: none;
+}
+
+.link {
+  color: var(--color-link);
+
+  &:hover {
+    color: var(--color-link-hover);
+  }
+
+  &:active {
+    color: var(--color-link-active);
+  }
+
+  &:visited {
+    color: var(--color-link-visited);
+  }
+}
+
+.small {
+  @mixin min-sm {
+    font-size: var(--small);
+  }
+}

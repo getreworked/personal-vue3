@@ -1,0 +1,71 @@
+:root {
+  --white: white;
+  --black: black;
+
+  --eggplant-0: #2c2938; /* Lightest */
+  --eggplant-10: #1c1a24;
+
+  --purple-0: #a594e9; /* Lightest */
+  --purple-10: #5846a2;
+
+  --blue-0: #346ca6; /* Lightest */
+  --blue-10: #193d60;
+
+  --gray-0: #efefef; /* Lightest */
+  --gray-10: #cccccc;
+  --gray-20: #999999;
+  --gray-30: #808080;
+  --gray-40: #4d4d4d;
+  --gray-50: #2b2b2b;
+
+  --color-bg: var(--white);
+  --color-bg-inverse: var(--black);
+  --color-bg-hover: var(--gray-0);
+
+  --color-text-0: var(--black);
+  --color-text-10: var(--gray-10);
+  --color-text-20: var(--gray-20);
+  --color-text-30: var(--gray-30);
+  --color-text-40: var(--gray-40);
+  --color-text-50: var(--gray-50);
+
+  --color-link: var(--blue-0);
+  --color-link-hover: var(--blue-10);
+  --color-link-active: var(--blue-10);
+  --color-link-visited: var(--purple-10);
+
+  --color-nav-link: var(--gray-30);
+  --color-nav-link-hover: var(--gray-40);
+  --color-nav-link-active: var(--black);
+
+  background-color: var(--white);
+}
+
+@define-mixin dark-mode {
+  --color-bg: var(--eggplant-10);
+  --color-bg-inverse: var(--white);
+  --color-bg-hover: var(--eggplant-0);
+
+  --color-text-0: var(--white);
+  --color-text-10: var(--gray-40);
+  --color-text-20: var(--gray-30);
+  --color-text-30: var(--gray-20);
+  --color-text-40: var(--gray-10);
+  --color-text-50: var(--gray-0);
+
+  --color-link: var(--gray-10);
+  --color-link-hover: var(--gray-0);
+  --color-link-active: var(--white);
+  --color-link-visited: var(--purple-0);
+
+  --color-nav-link: var(--gray-10);
+  --color-nav-link-hover: var(--gray-0);
+  --color-nav-link-active: var(--white);
+
+  background-color: var(--color-bg);
+  color: var(--color-text-0);
+}
+
+.is-dark {
+  @mixin dark-mode;
+}

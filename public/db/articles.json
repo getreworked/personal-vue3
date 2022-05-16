@@ -1,0 +1,68 @@
+{
+  "data": [
+    {
+      "type": "profile",
+      "title": "Vue Forum",
+      "subTitle": "Community Leader",
+      "url": "https://forum.vuejs.org/u/JamesThomson/summary",
+      "image": "/images/educate/vue-leader.jpg",
+      "text": "Helping the community by debugging issues, answering questions, and offering guidance on anything related to the Vue ecosystem, JavaScript, and web development."
+    },
+    {
+      "type": "article",
+      "title": "5 Things To Do When You're Feeling The Struggle",
+      "subTitle": "",
+      "url": "https://dev.to/jamesthomson/5-things-to-do-when-you-re-feeling-the-struggle-37g3",
+      "image": "/images/educate/5-things-dev-struggle.jpg",
+      "text": "Try out these 5 different strategies to deal with the struggle as a developer."
+    },
+    {
+      "type": "article",
+      "title": "Greatly Reduce PNG Weight With This One Trick",
+      "subTitle": "",
+      "url": "https://dev.to/jamesthomson/greatly-reduce-png-weight-with-this-one-trick-4p0g",
+      "image": "/images/educate/svg-trick.jpg",
+      "text": "Using SVG masks can greatly reduce the size of an image with transparency."
+    },
+    {
+      "type": "article",
+      "title": "SPAs: Have Your Cache And Eat It Too",
+      "subTitle": "",
+      "url": "https://dev.to/jamesthomson/spas-have-your-cache-and-eat-it-too-iel",
+      "image": "/images/educate/spa-cache.jpg",
+      "text": "A small guide on some initial caching steps for your single page application in hopes your users avoid a stale cache hell hole."
+    },
+    {
+      "type": "article",
+      "title": "Prefix vs Postfix When Using Increment & Decrement Operators",
+      "subTitle": "",
+      "url": "https://dev.to/jamesthomson/prefix-vs-postfix-when-using-increment-decrement-operators-220f",
+      "image": "/images/educate/prefix-postfix.jpg",
+      "text": "An overview on the intricacies of prefixing vs postfixing the increment and decrement operators on an operand."
+    },
+    {
+      "type": "article",
+      "title": "Sublime 3: Goto Anything... Tip",
+      "subTitle": "",
+      "url": "https://dev.to/jamesthomson/sublime-3-goto-anything-tip-190b",
+      "image": "/images/educate/sublime-goto.jpg",
+      "text": "Exclude directories when using Goto Anything in Sublime"
+    },
+    {
+      "type": "article",
+      "title": "SVG Tricks: Kickass Hotspots!",
+      "subTitle": "",
+      "url": "https://dev.to/jamesthomson/svg-tricks-kickass-hotspots-904",
+      "image": "/images/educate/kickass-hotspots.jpg",
+      "text": "A look into creating precise hotspots over images using SVG"
+    },
+    {
+      "type": "article",
+      "title": "Sublime 3: A Quick Tip Using Find and Replace with Regex",
+      "subTitle": "",
+      "url": "https://dev.to/jamesthomson/sublime-3-a-quick-tip-using-find-and-replace-with-regex-3p1d",
+      "image": "/images/educate/sublime-regex.jpg",
+      "text": "Use Sublime 3's regex option to find all occurrences in a given context and replace with the matched value."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --transition-short: 0.25s;
+  --transition-medium: 0.5s;
+  --transition-long: 0.75s;
+
+  --delay-short: 0.25s;
+  --delay-medium: 0.5s;
+  --delay-long: 0.75s;
+}
+
+:root, body {
+  height: 100%;
+
+  transition: background var(--transition-short);
+}
