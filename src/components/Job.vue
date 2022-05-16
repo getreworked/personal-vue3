@@ -87,14 +87,20 @@
         }
       }
 
-      $colors-list: var(--color-text-50) var(--color-text-40)
-        var(--color-text-30) var(--color-text-20);
-      @each $current-color in $colors-list {
-        $i: index($colors-list, $current-color);
+      &:nth-child(1) {
+        color: var(--color-text-50);
+      }
 
-        &:nth-child(#{$i}) {
-          color: $current-color;
-        }
+      &:nth-child(2) {
+        color: var(--color-text-40);
+      }
+
+      &:nth-child(3) {
+        color: var(--color-text-30);
+      }
+
+      &:nth-child(4) {
+        color: var(--color-text-20);
       }
     }
   }

@@ -6,18 +6,16 @@ export const routes = [
   {
     path: "/work",
     name: "work",
-    component: () => import(/* webpackChunkName: "work" */ "./views/Work.vue"),
+    component: () => import("./views/Work.vue"),
   },
   {
     path: "/educate",
     name: "educate",
-    component: () =>
-      import(/* webpackChunkName: "educate" */ "./views/Educate.vue"),
+    component: () => import("./views/Educate.vue"),
   },
   {
     path: "/experience",
     name: "experience",
-    component: () =>
-      import(/* webpackChunkName: "experience" */ "./views/Experience.vue"),
+    component: () => import("./views/Experience.vue"),
   },
 ];
