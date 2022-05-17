@@ -2,9 +2,9 @@ export const work = [
   {
     title: "Where",
     subTitle:
-      "TypeScript, React, React Query, Chart.js, Tailwind, Vite, HTML, Gitlab",
+      "TypeScript, React, React Query, Chart.js, Tailwind, Headless UI, Vite, HTML, Gitlab",
     url: "https://www.where.team",
-    text: "<p>Test</p>",
+    text: "<p>The team at Complish (see below) had another clever idea and wanted me to spearhead the web app's frontend architecture. There was only one requirement: we needed to produce an MVP in just a couple of months. So, we put our heads together and came up with a list of must have features for MVP and got to work.</p><p>Because the apps state would essentially be a mirror of the backend, I decided that React with React Query would be the perfect tool for the job. This was important to reach our MVP goal as React Query removed a lot of boilerplate and wiring up API responses to a state management system. Coupled with Tailwind and Headless UI, I was also able to quickly produce layouts and components to power our app. On top of that, I set out a personal goal to ensure our app was fully accessible and navigatable entirely via the keyboard.</p>",
     images: [
       "/images/work/where-1.png",
       "/images/work/where-2.png",
@@ -20,7 +20,7 @@ export const work = [
     title: "Complish",
     subTitle: "JavaScript, Vue, Pusher, TipTap/ProseMirror, HTML, CSS, Gitlab",
     url: "https://team.complish.app",
-    text: "<p>Test</p>",
+    text: "<p>Joining the skilled & agile fully remote team at Complish I was excited to leap back into the startup world. My primary task: to build a collaborative asynchronous Discussions feature (think of a mash up between Google Docs & Notion). Easy, right? Well, not exactly.</p><p>Our first attempt was to use Quill along with Pusher and Vuex ORM to achieve our goal. This went pretty well, the Pusher & ORM side of things went off without a hitch however we found that Quill wasn't flexible enough for our needs. So, we started to look elsewhere and found TipTap (powered by ProseMirror). TipTap provided a nice layer for interacting with Vue components in the editor, while ProseMirror allowed us to really harness the power of the editor and customize it however we see fit. It was exactly what we needed as we were able to achieve our goal of a performant, collaborative, feature rich, and asynchronous editor.</p>",
     images: [
       "/images/work/complish-1.png",
       "/images/work/complish-2.png",
