@@ -129,17 +129,6 @@
   display: flex;
   align-items: center;
   height: 100%;
-
-  .slide {
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-    object-fit: contain;
-
-    @mixin min-xs {
-      object-fit: none;
-    }
-  }
 }
 
 .fade-enter-active,
