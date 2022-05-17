@@ -1,7 +1,30 @@
-{
-  "data": [
+export const jobs = [
     {
-      "title": "Remote Senior FE Web Developer",
+      "title": "Senior Frontend Engineer",
+      "company": "Where (Cauzey Ltd.)",
+      "years": ["2022", "2021", "2020"],
+      "list": [
+        "Lead frontend app architecture design & development",
+        "Shifted our tech stack to Typescript, React, React-Query, Vite, Tailwind",
+        "Integration with Google geolocation, places, & map services",
+        "Integration with Stripe payment processing",
+        "Helped guide UI/UX in developing our design system using Tailwind"
+      ]
+    },
+    {
+      "title": "Senior Frontend Engineer",
+      "company": "Complish (Cauzey Ltd.)",
+      "years": ["2022", "2021", "2020"],
+      "list": [
+        "Joined to help build out new flagship features for Complish's Vue web app",
+        "Lead frontend implementation of Discussions - a feature involving a highly customised collaborative document editor powered by ProseMirror",
+        "Championed shift to state management using ORM",
+        "Integrated real-time collaboration & notification features using Pusher",
+        "Refactored existing features to improve DX & improve app performance"
+      ]
+    },
+    {
+      "title": "Senior Frontend Developer",
       "company": "Communo",
       "years": ["2020", "2019"],
       "list": [
@@ -12,7 +35,7 @@
       ]
     },
     {
-      "title": "Senior FE Web Developer",
+      "title": "Senior Frontend Developer",
       "company": "BRND WGN",
       "years": ["2019", "2018", "2017", "2016"],
       "list": [
@@ -87,4 +110,3 @@
       ]
     }
   ]
-}

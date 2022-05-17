@@ -169,7 +169,7 @@ import { clone } from "../utilities";
 function prefetch(asset) {
   const img = new Image();
 
-  img.src = asset.url;
+  img.src = asset.src;
   img.sizes = asset.sizes;
   img.srcset = asset.srcset;
 }
@@ -205,7 +205,8 @@ export default {
   watch: {
     currentSlide: function () {
       const nextSlide = this.slides[1];
-      prefetch(nextSlide);
+
+      if (nextSlide) prefetch(nextSlide);
     },
   },
 

@@ -40,8 +40,8 @@
 </style>
 
 <script>
-// API
-import { getSkillsets, getJobs } from "../api";
+import { skillsets } from "../db/skillsets";
+import { jobs } from "../db/jobs";
 
 // Component
 import Skillset from "../components/Skillset.vue";
@@ -56,13 +56,8 @@ export default {
   },
 
   data: () => ({
-    skillsets: [],
-    jobs: [],
+    skillsets,
+    jobs,
   }),
-
-  created() {
-    getSkillsets().then(({ data }) => (this.skillsets = data.data));
-    getJobs().then(({ data }) => (this.jobs = data.data));
-  },
 };
 </script>

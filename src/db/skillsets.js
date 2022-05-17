@@ -1,15 +1,16 @@
-{
-  "data": [
+export const skillsets = [
     {
       "heading": "Knowledge",
       "list": [
-        "JavaScript (es6+)",
+        "JavaScript",
         "Typescript",
         "React",
         "Vue",
-        "HTML5",
-        "CSS3",
+        "HTML",
+        "CSS",
         "Git",
+        "Vite",
+        "Rollup",
         "Webpack",
         "GSAP",
         "SVG",
@@ -19,20 +20,22 @@
         "Ionic",
         "Capacitor",
         "Tailwind",
-        "Twilio APIs"
+        "Twilio APIs",
+        "Pusher",
+        "TipTap/ProseMirror"
       ]
     },
     {
       "heading": "",
       "list": [
-        "TDD",
-        "Unit Testing",
-        "End-to-End Testing",
         "SPA Architecture Design & Developement",
         "CI/CD Methodology",
+        "Unit Testing",
+        "End-to-End Testing",
         "Web Animation",
         "Responsive Design & Development",
         "Front End Web Architecture",
+        "Web Accessibility",
         "Web Perfomance Optimization",
         "Code Optimization",
         "Gitflow Methodology",
@@ -43,18 +46,17 @@
     {
       "heading": "Tools",
       "list": [
-        "Photoshop",
-        "Illustrator",
-        "Sketch",
-        "Figma",
         "GitHub",
         "Bitbucket",
         "CLI",
-        "NPM/Yarn",
+        "NPM",
         "VSCode",
-        "Sublime",
         "Prettier",
-        "ESLint"
+        "ESLint",
+        "Figma",
+        "Photoshop",
+        "Illustrator",
+        "Sketch"
       ]
     },
     {
@@ -75,8 +77,9 @@
         "Music",
         "Food/Cooking",
         "Snowboarding",
-        "Scuba Diving"
+        "Scuba Diving",
+        "Bush Regeneration"
       ]
     }
   ]
-}
+  

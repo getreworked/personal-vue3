@@ -17,8 +17,7 @@
 </style>
 
 <script>
-// API
-import { getArticles } from "../api";
+import { articles } from "../db/articles";
 
 // Components
 import Card from "../components/Card.vue";
@@ -31,11 +30,7 @@ export default {
   },
 
   data: () => ({
-    articles: [],
+    articles,
   }),
-
-  created() {
-    getArticles().then(({ data }) => (this.articles = data.data));
-  },
 };
 </script>

@@ -7,8 +7,7 @@
 <style scoped></style>
 
 <script>
-// API
-import { getWork } from "../api";
+import { work } from "../db/work";
 
 // Components
 import Showcase from "../components/Showcase.vue";
@@ -19,11 +18,7 @@ export default {
   },
 
   data: () => ({
-    work: [],
+    work,
   }),
-
-  created() {
-    getWork().then(({ data }) => (this.work = data.data));
-  },
 };
 </script>
