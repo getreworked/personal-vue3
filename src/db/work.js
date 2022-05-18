@@ -14,7 +14,6 @@ export const work = [
       "/images/work/where-5.png",
       "/images/work/where-6.png",
       "/images/work/where-7.png",
-      "/images/work/where-8.png",
     ],
   },
   {
