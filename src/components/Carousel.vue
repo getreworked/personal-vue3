@@ -8,8 +8,8 @@
     <div
       class="carousel"
       :class="{ 'is-active': isActive }"
-      @keyup.37="previous"
-      @keyup.39="next"
+      @keyup.arrow-left="previous"
+      @keyup.arrow-right="next"
     >
       <div class="carousel__controls">
         <button
@@ -147,7 +147,6 @@
 </style>
 
 <script>
-import { markRaw, h } from "vue";
 import Slide from "./Slide.vue";
 import HoverIntent from "./HoverIntent.vue";
 import IconChevronLeft from "./IconChevronLeft.vue";
