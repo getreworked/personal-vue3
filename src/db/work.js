@@ -40,6 +40,7 @@ export const work = [
     url: "https://www.communo.com",
     text: "<p>I had the great opportunity to work with the talented product team at Communo to help them develop their web SPA and native mobile app using Ionic React with Capacitor. My primary task was to build out the applications chat features which integrated with Twilio's programmable chat API.</p><p>The chat feature was developed in isolation from the rest of the app, including its own state management. This decoupling of the feature made it agile and easy to maintain. Components were developed with flexibility in mind so that they could be dropped into any context with minimial effort. For example, a chat conversation could be dropped in to any page for an instant contextual chat experience.</p>",
     images: [
+      "/images/work/communo-0.png",
       "/images/work/communo-1.jpg",
       "/images/work/communo-2.jpg",
       "/images/work/communo-3.jpg",
